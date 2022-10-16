@@ -20,9 +20,10 @@ agent_colors = {
     1: (0, 0, 255)
 }
 
-class MultiAgentGrid(gym.Env):
-    """ Grid with multiple agents to be controlled centrally
-    """
+class CentralAgentGrid(gym.Env):
+    """Example of a custom env in which you have to walk down a corridor.
+
+    You can configure the length of the corridor via the env config."""
 
     def __init__(self, config: EnvContext):
 
