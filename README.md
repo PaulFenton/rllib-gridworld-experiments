@@ -43,3 +43,9 @@ source venv/bin/activate
 ## Run experiments
 
 Run the notebook `run_experiment.ipynb`.
+
+## Shutting down
+
+```sh
+ray down cluster.yaml
+```
